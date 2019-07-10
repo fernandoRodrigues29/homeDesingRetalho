@@ -9,96 +9,126 @@
 
     <title>Home Retalho</title>
     <!---->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Titillium+Web&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Herr+Von+Muellerhoff|Nanum+Myeongjo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Special+Elite&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/estilo00.css" rel="stylesheet">
-    <link href="css/pessoal00.css" rel="stylesheet">
-    <!--escript-->
-    <script src="js/main.js"></script>
+    <!--
+    <link href="css/estilo.min.css" rel="stylesheet">
+  -->
+  <link href="css/estilo00.css" rel="stylesheet">  
+    <script src="js/principal.js"></script>
     <link href="vendor/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
-
-    <!-- Custom styles for this template -->
+   <!-- Custom styles for this template -->
   </head>
 
 <body>
 <header>
-  <nav>
-    <div id="cabecalho">
-        <div id="icone">EGUA DOIDO</div>
-        <ul id="menuHorizontal">
-            <li><a href="#" class="linkSelecionado">Home</a></li>
-            <li><a href="#">Pages</a></li>
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">Portifolio</a></li>
-            <li><a href="#">Shop</a></li>
-        </ul>
-       
-        <ul id="areaUsuarioMenu">
-          <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
-          <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li>
-        </ul>        
-    </div>
-</nav>
+  <nav id="menuHorizontalTop">
+    <a href="#" class="linkHome">
+      <b>EguaCode</b>
+    </a>
+      <ul id="menu-central" class="delayedShow">
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+        <li>item 5</li>
+      </ul>
+      <ul id="menu-usuario">
+        <li><a href="#"><i class="fa fa-search" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+        <li><a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i></a></li>
+      </ul>
+     
+      <a href="javascript:void(0);" class="icon" onclick="menuResponsivo()">
+        <i class="fa fa-bars"></i>
+      </a>    
+  </nav>
+<script>
+
+</script>
 </header>
+<!---->
 <main>
     <section id="secao1">
-       <!--linha 1-->
        <div class="col-12">
           <div class="row linha">
-              <div class="col-md-6" >
+              <div class="col-md-6 mt-1" >
                 <div class="col-12" id="banner-l1-i1">
-                    <img src="https://via.placeholder.com/607x536.png">
-                </div> 
+                    <h4 class="cursivo">Conteudo</h4>
+                    <h1>Titulo Principal</h1>
+                    <p>um tsto generico normal, um pouco longo</p>
+                    <button class="btn btn-principal">Ver Mais</button>
+                  </div> 
               </div>
-              <div class="col-md-3" >
+              <div class="col-md-3 mt-1" >
                 <div class="col-12" id="banner-l1-i2" >
-                    <img src="https://via.placeholder.com/288x536.png">
+                  <div class="bgCard"></div>  
+                  <div class="conteudo">
+                    <h1>conteudo<h1>
+                  </div>
                 </div> 
               </div>
-              <div class="col-md-3" >
-                <div class="col-12 mb-4" id="banner-l1-i3-" >
-                      <div style="width:100%;height:253px;background-color: #f30ec1;"></div>  
+              <div class="col-md-3 mt-1" >
+                <div class="col-12 mb-4 mt-1" id="banner-l1-i3" >
+                      <span class="cursivo">Um pouco</span>
+                      <h4>Sobre Nóis</h4>  
                 </div> 
-                <div class="col-12" id="banner-l1-i3-x" >
-                    <div style="width:100%;height:253px;background-color: #0e97f3"></div>  
-              </div>             
+                <div class="col-12 mt-1" id="banner-l1-i4" >
+                    <div class="bgCard"></div>  
+                    <div class="conteudo">
+                      <h1>conteudo<h1>
+                    </div>
+               </div>             
               </div>                
           </div>
        </div>
-      <!--linha 2-->
       <div class="col-12">
           <div class="row linha">
-              <div class="col-md-3 ">
-                  <div class="col-md-12 col-6" id="banner-l2-i0" >
-                      <img src="https://via.placeholder.com/252x536.png">
+              <div class="col-md-3 mt-1">
+                  <div class="col-md-12 col-12" id="banner-l2-i0" >
+                      <div class="bgCard"></div>  
+                      <div class="conteudo">
+                        <h1>conteudo<h1>
+                      </div>
                   </div>
               </div>
-              <div class="col-md-9 ">
+              <div class="col-md-9 mt-1">
                 <div class="row mb-2">
                   <div class="col-md-4 col-4">
                     <div  id="banner-l2-i1">
-                        <img src="https://via.placeholder.com/286x253.png">
+                        <h4>Nosso Serviços</h4>
                     </div>
                   </div>
-                  <div class="col-md-8 col-8">
+                  <div class="col-md-8 col-8 mt-1">
                       <div  id="banner-l2-i2">
-                          <img src="https://via.placeholder.com/535x253.png">
+                          <div class="bgCard"></div>  
+                          <div class="conteudo">
+                            <h1>conteudo<h1>
+                          </div>
                       </div>
                   </div> 
                 </div>
                 <div class="row">
-                    <div class="col-md-9">
+                    <div class="col-md-8 mt-1">
                         <div id="banner-l2-i3">
-                            <img src="https://via.placeholder.com/535x253.png">
+                            <div class="bgCard"></div>  
+                            <div class="conteudo">
+                              <h1>conteudo<h1>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-md-3" >
+                    <div class="col-md-4 mt-1" >
                         <div id="banner-l2-i4">
-                            <img src="https://via.placeholder.com/252x253.png">
+                            <div class="bgCard"></div>  
+                            <div class="conteudo">
+                              <h1>conteudo<h1>
+                            </div>
                         </div>
                     </div> 
                 </div>
@@ -109,8 +139,8 @@
     </div>      
     </section>
     <section id="secao2">
-      <div class="container mt-5">
-          <div class="row justify-content-md-center">
+      <div class="container">
+          <div class="row justify-content-md-center mt-4">
             <div class="col-md-3">
               <h5>
                 titulo centro
@@ -125,7 +155,7 @@
             </div>
             <div class="col-md-3">
               <h5>Mapa</h5>
-              <ul class="ul-rodape-1">
+              <ul class="ul-rodape">
                 <li>
                   <a href="#">Home</a>
                 </li>
@@ -142,7 +172,7 @@
             </div>
             <div class="col-md-3">
                 <h5>Duvidas Frequentes</h5>
-                <ul class="ul-rodape-1">
+                <ul class="ul-rodape">
                   <li>
                     <a href="#">Hoje Chove?</a>
                   </li>
@@ -153,7 +183,7 @@
                     <a href="#">como trocar o botijão</a>
                   </li>
                   <li>
-                      <a href="#">apapuaminhanabacasopossa</a>
+                      <a href="#">que horas são?</a>
                   </li>                
                 </ul>
             </div>
@@ -187,11 +217,12 @@
           </div>
       </div> 
     </section>
-</main>   
+</main>
+
 <footer>
         <p id="rodape">Conteudo do rodapé</p>
 </footer>
-
+<!---->   
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
